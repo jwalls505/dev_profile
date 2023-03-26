@@ -15,10 +15,7 @@ import {
   git,
   figma,
   docker,
-  meta,
   pnc,
-  starbucks,
-  tesla,
   shopify,
   carrent,
   jobit,
@@ -47,16 +44,8 @@ export const navLinks = [
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -104,14 +93,6 @@ export const navLinks = [
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
