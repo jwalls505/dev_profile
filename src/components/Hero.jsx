@@ -12,8 +12,8 @@ const Hero = () => {
       flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+          <div className="w-5 h-5 rounded-full bg-[#5bb2ed]" />
+          <div className="w-1 sm:h-80 h-40 blue-white-gradient" />
         </div>
 
         <div>
@@ -21,7 +21,7 @@ const Hero = () => {
             className={`${styles.heroHeadText} 
           text-white`}
           >
-            Hi, I'm <span className="text-[#915eff]">Jesse</span>
+            Hi, I'm <span className="text-[#f4f4f4]">Jesse</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             lorum ispom some text <br className="sm:block hidden" />
