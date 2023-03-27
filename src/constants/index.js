@@ -21,6 +21,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  test,
+  agile
 } from "../assets";
   
 export const navLinks = [
@@ -47,6 +49,14 @@ export const navLinks = [
       title: "Backend Developer",
       icon: backend,
     },
+    {
+      title: "QE | Test Automation",
+      icon: test
+    },
+    {
+      title: "Agile",
+      icon: agile
+    }
   ];
   
   const technologies = [

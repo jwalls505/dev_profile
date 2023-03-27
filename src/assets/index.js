@@ -23,8 +23,8 @@ import threejs from "./tech/threejs.svg";
 
 import pnc from "./company/pnc.png"
 import shopify from "./company/shopify.png";
-
-
+import agile from "./agile.png"
+import test from "./test.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -55,5 +55,7 @@ export {
   shopify,
   carrent,
   jobit,
-  tripguide
+  tripguide,
+  agile,
+  test
 };
