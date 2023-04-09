@@ -28,7 +28,9 @@ module.exports = {
         },
         backgroundImage: {
           "hero-pattern": "url('/src/assets/herobg.png')",
-          "hero-pattern1": "url('/src/assets/herobh(1).png",
+          "hero-pattern1": "url('/src/assets/herobg(1).png')",
+          "hero-pattern2": "url('/src/assets/herobg2.png')",
+          "hero-pattern3": "url('/src/assets/herobg3.png')"
         },
       },
     },

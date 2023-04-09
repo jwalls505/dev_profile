@@ -1,7 +1,5 @@
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -13,16 +11,13 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   pnc,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   test,
-  agile
+  agile,
+  backgroundpitt,
+  koz_logo,
+  te_logo
 } from "../assets";
   
 export const navLinks = [
@@ -149,58 +144,38 @@ export const navLinks = [
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Yinzer Tours",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a web application that allows visitors to view beautiful Pittsburgh landmarks and build an itinerary with mapped routes to each one. Built with Vue.js, Java and PostgresSQL within an agile development cycle.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
+          name: "vue.js",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
+          name: "postgresSQL",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "java",
+          color: "orange-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: backgroundpitt,
+      source_code_link:
+        "https://github.com/jwalls505/city-tours-final-capstone",
     },
     {
-      name: "Trip Guide",
+      name: "Koz",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Website built for my band, utilizing the Svelte front-end framework. Contact form linked through google form functionality. Deployed through Vercel hosting.",
       tags: [
         {
-          name: "nextjs",
+          name: "svelte",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "google forms",
           color: "green-text-gradient",
         },
         {
@@ -208,8 +183,30 @@ export const navLinks = [
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      link: "https://www.musicofkoz.com",
+      image: koz_logo,
+      source_code_link: "https://github.com/jwalls505/koz-music",
+    },
+    {
+      name: "TEnmo",
+      description:
+        "Developed command line person to person money transfer program in Java, utilizing RESTful methods and MVC patterns.",
+      tags: [
+        {
+          name: "java",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "command-line",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "springboot",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: te_logo,
+      source_code_link: "https://github.com/jwalls505/capstoneproject2-TEnmo",
     },
   ];
   

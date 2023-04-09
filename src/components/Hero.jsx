@@ -21,11 +21,13 @@ const Hero = () => {
             className={`${styles.heroHeadText} 
           text-white`}
           >
-            Hi, I'm <span className="text-[#f4f4f4]">Jesse</span>
+            Welcome, I'm <span className="text-[#f4f4f4]">Jesse</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            lorum ispom some text <br className="sm:block hidden" />
-            here about myself eventually
+            Software developer that is friendly, <br className="sm:block hidden" />
+            team-oriented, and adaptable to high-stress situations. Resourceful, persistent, and patient. Pursuing a role that allows for growth and development,
+            with the ultimate goal of working with creative,
+            like-minded individuals who want to make the world a better place.
           </p>
         </div>
       </div>

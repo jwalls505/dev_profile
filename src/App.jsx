@@ -4,8 +4,8 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-hero-pattern">
-        <div className="bg-hero-pattern1 bg-cover bg-no-repeat bg-center">
+      <div className="relative z-0 bg-primary bg-hero-pattern bg-cover">
+        <div className="bg-hero-patter3 bg-cover bg-center bg-no-repeat">
           <Navbar />
           <Hero />
         </div>
