@@ -17,7 +17,8 @@ import {
   agile,
   backgroundpitt,
   koz_logo,
-  te_logo
+  te_logo,
+  vintagevoice
 } from "../assets";
   
 export const navLinks = [
@@ -119,26 +120,26 @@ export const navLinks = [
   
   const projects = [
     {
-      name: "Yinzer Tours",
+      name: "The Vintage Voice",
       description:
-        "Developed a web application that allows visitors to view beautiful Pittsburgh landmarks and build an itinerary with mapped routes to each one. Built with Vue.js, Java and PostgresSQL within an agile development cycle.",
+        "Website built for voice over and sound engineer, utilizing Svelte front-end framework. Deployed through Vercel hosting.",
       tags: [
         {
-          name: "vue.js",
+          name: "sveltekit",
           color: "green-text-gradient",
         },
         {
-          name: "postgresSQL",
+          name: "vercel",
           color: "blue-text-gradient",
         },
         {
-          name: "java",
-          color: "orange-text-gradient",
+          name: "css",
+          color: "pink-text-gradient",
         },
       ],
-      image: backgroundpitt,
-      source_code_link:
-        "https://github.com/jwalls505/city-tours-final-capstone",
+      link: "https://vintage-voice.com",
+      image: vintagevoice,
+      source_code_link: "https://github.com/jwalls505/vintage-voice",
     },
     {
       name: "Koz",
@@ -146,15 +147,15 @@ export const navLinks = [
         "Website built for my band, utilizing the Svelte front-end framework. Contact form linked through google form functionality. Deployed through Vercel hosting.",
       tags: [
         {
-          name: "svelte",
+          name: "sveltekit",
           color: "blue-text-gradient",
         },
         {
-          name: "google forms",
+          name: "Brevo email service",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],

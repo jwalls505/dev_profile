@@ -51,7 +51,7 @@ const ProjectCard = ({
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
-          {link && (<a href={link} target="_blank" rel="noopener noreferrer">musicofkoz.com</a> )}
+          {link && (<a href={link} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">{link.replace('https://', '').replace('www.','')}</a> )}
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">

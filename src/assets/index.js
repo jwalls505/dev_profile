@@ -24,6 +24,7 @@ import agile from "./agile.png"
 import test from "./test.png"
 import te_logo from "./te_logo.png"
 import backgroundpitt from "./backgroundpitt.jpg";
+import vintagevoice from "./vintagevoice.png";
 
 export {
   logo,
@@ -49,5 +50,6 @@ export {
   koz_logo,
   agile,
   test,
-  te_logo
+  te_logo,
+  vintagevoice
 };
